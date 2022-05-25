@@ -3,15 +3,10 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import GlobalStyle from './GlobalStyle';
 import store from './store';
-import Container from './components/Container';
-import H4 from './components/H4';
+import TournamentsRoute from './routes/tournaments/TournamentsRoute';
 
 const App: React.FC = () => {
-  return (
-    <Container>
-      <H4>FACEIT Tournaments</H4>
-    </Container>
-  );
+  return <TournamentsRoute />;
 };
 
 ReactDOM.render(

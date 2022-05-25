@@ -25,6 +25,7 @@
     "react-scripts": "3.4.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
+    "reselect": "^4.1.5",
     "styled-components": "^5.0.1",
     "typescript": "~3.7.2",
     "wait-for-localhost-cli": "^1.1.0"
